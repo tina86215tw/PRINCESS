@@ -1,0 +1,241 @@
+/*
+
+My Custom CSS
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+body{background-color: #fff3dc;}
+.navbar{background-color: #fff3dc;}
+.navbar-form{
+  }
+
+  .navbar-brand {
+
+  }
+  footer {
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+  }ㄋ
+
+  .header ul{
+    width:1150px;
+    height: 60px;
+    margin: 0 auto;
+  }
+  .header ul li{
+    width: 80px;
+    height:60px;
+    line-height: 30px;
+    float:left;
+    font-weight: bolder;
+    list-style-type: none;
+    text-align: center;
+      padding-top: 20px;
+        float:right;
+  }
+
+  .header ul li a{
+    font-family: MicrosoftJhengHeiBold Regular,新細明體,arial;
+    font-size: 26px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #929292;
+    padding-left: 0px;
+  }
+
+  .header ul li a:hover{
+    color:#92140c;
+    transition: color 0.5s;
+  }
+
+  .line{
+background-color: #929292;
+    width: 1px;height: 89px;
+    float:right;
+margin-top:  12px;}
+
+.photo img{
+  width: 100%;
+  margin-top: 11px;
+}
+.artical h1{
+  font-family: MicrosoftJhengHeiBold Regular,新細明體,arial;
+  font-size: 26px;
+  color: #92140c;
+  text-align: center;
+}
+.line2{
+  width: 269px;height: 1px;
+  background-color: #929292;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.artical p{
+  font-family: MicrosoftJhengHeiBold Regular,新細明體,arial;
+  font-size: 18px;
+  color: #333232;
+}
+
+.b {font-size: 12px;color: #92140c;
+}
+.c{margin-left: 10px;}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #myCarousel {
+     margin-top: 60px;
+     font-size: 1rem;
+   }
+
+   .carousel-caption {
+     font-size: 1.5em;
+   }
+
+   .carousel-caption h4 {
+     font-size: 2em;
+   }
+
+   #myCarousel .item {height: 400px;}
+
+   #slide1 {
+     background: url('../images/carousel_medium_01.jpg') top center repeat;
+   }
+
+   #slide2 {
+     background: url('../images/carousel_medium_02.jpg') top center repeat;
+   }
+
+   #slide3 {
+     background: url('../images/carousel_medium_03.jpg') top center repeat;
+   }
+
+
+   @media (min-width: 1200px) {
+
+     #myCarousel .item {height: 500px;}
+
+     #myCarousel {font-size: 1.5rem;}
+
+
+   }
+
+   @media (max-width: 768px) {
+
+     #myCarousel .item {height: 310px;}
+
+     #myCarousel {font-size: 0.8rem;}
+     .photo img{
+       width: 100%;
+       margin-top: 11px;
+     }
+
+.c{display:none;}
+  }
+  .artical p{
+
+  }
+
+/* --------------------------------------
+   Jumbotron
+   -------------------------------------- */
+
+  #myJumbotron .jumbotron{
+     background: url('../images/img_photo.jpg');
+  }
+
+  #myJumbotron .jumbotron h1 {
+      color: white;
+  }
+
+  #myJumbotron .jumbotron p {
+      color: white;
+  }
+
+  #myJumbotron .jumbotron small {
+      color: lightgray;
+  }
+
+/* --------------------------------------
+   Thumbnail
+   -------------------------------------- */
+
+  #myThumbnail {
+    text-align: center;
+  }
+
+  #myThumbnail img {
+    margin: 20px auto;
+    background-color: black;
+    box-shadow: 1px 1px 2px #111010;
+  }
+
+  @media (max-width: 1200px) {
+    #myThumbnail img {
+      max-width: 80%;
+    }
+  }
+
+  /* --------------------------------------
+     Footer
+     -------------------------------------- */
+
+     .footer{
+       margin: 0;
+       padding: 58px 0 0 0;
+       background-color: #fff3dc;
+
+     }
+
+     .bottom{
+       margin: 0;
+       height: 60px;
+       width: 100%;
+       background-color: #92140c;
+     }
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
